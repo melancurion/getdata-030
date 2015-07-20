@@ -23,7 +23,7 @@ This repo contains the following output products:
 | CodeBook.md       | Describes the tidy data set and the process by which it was generated.  |
 | run_analysis.R    | Contains the R script used to generate the tidy data set.               |
 | HAR_tidy_wide.txt | "Wide and short" version of tidy data.                                  |
-| HAR+tidy_tall.txt | "Tall and long" molten version of tidy data.                            |
+| HAR_tidy_tall.txt | "Tall and long" molten version of tidy data.                            |
 
 ### Package Dependencies
 The R script "run_analysis.R" requires the 'dplyr' and 'reshape2' packages.
@@ -67,3 +67,4 @@ The script was written and tested in R version 3.2.1 (2015-06-18), with dplyr ve
       * total_acc_x_train.txt
       * total_acc_y_train.txt
       * total_acc_z_train.txt
+4. The script will produce the two output data files "HAR_tidy_wide.txt" and "HAR_tidy_tall.txt", either of which may be regarded as suitable "tidy data" end products.
