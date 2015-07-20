@@ -11,6 +11,16 @@ The project purpose and a general description of the raw data and tghe underlyin
 ## Raw Datasets
 The following files constitute the raw dataset from which the output dataset has been produced.
 
+| File                                  | Description                                                 |
+| :------------------------------------ | :---------------------------------------------------------- |
+| activity_labels.txt                   | This table maps the integer activity indicator in the test and train datasets to a meaningful activity label, e.g. 1 maps to "WALKING".|
+| features.txt                          | This table maps the integer feature indicator in the test and train datasets to a meaningful "feature name", i.e. the name of a measured or derived quantity.
+| X_test.txt (*note: uppercase X*)      |                                                         |
+| y_test.txt (*note: lowercase y*)      |                                                             |
+| X_train.txt (*note: uppercase X*)     |                                                             |
+| y_train.txt  (*note: lowercase y*)    |                                                             |
+
+
 
 ## Output Tidy Datasets
 Note that two versions of the tidy data set are provided:
@@ -89,6 +99,10 @@ of the "Parameter" field in 'HAR_tidy_tall.txt'.
 | 32      | tBodyGyroJerkStdZ   | 66      | fBodyGyroMagStd
 | 33      | tBodyAccMagMean     | 67      | fBodyGyroJerkMagMean
 | 34      | tBodyAccMagStd      | 68      | fBodyGyroJerkMagStd
+
+### Quantities in raw and tidy datasets
+- Feature quantities are normalized and bounded within [-1, 1].
+- Each feature vector is a row on the text file.
 
 ### License
 Use of this dataset in publications must be acknowledged by referencing the following publication [1]. 
