@@ -15,8 +15,8 @@ This repo contains the following output products:
 | README.md         | This file.                                                              |
 | CodeBook.md       | Describes the tidy data set and the process by which it was generated.  |
 | run_analysis.R    | Contains the R script used to generate the tidy data set.               |
-| HAR_tidy_wide.txt | "Wide" version of tidy data.                                            |
-
+| HAR_tidy_wide.txt | "Wide and short" version of tidy data.                                  |
+| HAR+tidy_tall.txt | "Tall and long" molten version of tidy data.                            |
 
 ### Raw Dataset
 The raw datasets are available at this link:
