@@ -44,4 +44,44 @@ where these substrings conform to the descriptions below.
 | summary-type       | 'Mean' or 'Std'     | Mean or Standard deviation |
 | axial coordinate   | 'X', 'Y','Z', or '' (*empty*)      | X, Y, or Z coordinate  |
 
+### List of Fields
+The following table lists the field name applied to each column
+in 'HAR_tidy_wide.txt'. The same list identifies the allowed values
+of the "Parameter" field in 'HAR_tidy_tall.txt'.
+|
+
+| 1       | Subject  (*Key*)    | 35      |  tGravityAccMagMean
+| 2       | Activity (*Key*)    | 36      |  tGravityAccMagStd
+| 3       | tBodyAccMeanX       | 37      |  tBodyAccJerkMagMean
+| 4       | tBodyAccMeanY       | 38      |  tBodyAccJerkMagStd
+| 5       | tBodyAccMeanZ       | 39      |  tBodyGyroMagMean
+| 6       | tBodyAccStdX        | 40      |  tBodyGyroMagStd
+| 7       | tBodyAccStdY        | 41      |  tBodyGyroJerkMagMean
+| 8       | tBodyAccStdZ        | 42      |  tBodyGyroJerkMagStd
+| 9       | tGravityAccMeanX    | 43      |  fBodyAccMeanX
+| 10      | tGravityAccMeanY    | 44      |  fBodyAccMeanY
+| 11      | tGravityAccMeanZ    | 45      |  fBodyAccMeanZ
+| 12      | tGravityAccStdX     | 46      |  fBodyAccStdX
+13        tGravityAccStdY       47        fBodyAccStdY
+14        tGravityAccStdZ       48        fBodyAccStdZ
+15        tBodyAccJerkMeanX     49        fBodyAccJerkMeanX
+16        tBodyAccJerkMeanY     50        fBodyAccJerkMeanY
+17        tBodyAccJerkMeanZ     51        fBodyAccJerkMeanZ
+18        tBodyAccJerkStdX      52        fBodyAccJerkStdX
+19        tBodyAccJerkStdY      53        fBodyAccJerkStdY
+20        tBodyAccJerkStdZ      54        fBodyAccJerkStdZ
+21        tBodyGyroMeanX        55        fBodyGyroMeanX
+22        tBodyGyroMeanY        56        fBodyGyroMeanY
+23        tBodyGyroMeanZ        57        fBodyGyroMeanZ
+24        tBodyGyroStdX         58        fBodyGyroStdX
+25        tBodyGyroStdY         59        fBodyGyroStdY
+26        tBodyGyroStdZ         60        fBodyGyroStdZ
+27        tBodyGyroJerkMeanX    61        fBodyAccMagMean
+28        tBodyGyroJerkMeanY    62        fBodyAccMagStd
+29        tBodyGyroJerkMeanZ    63        fBodyAccJerkMagMean
+30        tBodyGyroJerkStdX     64        fBodyAccJerkMagStd
+31        tBodyGyroJerkStdY     65        fBodyGyroMagMean
+32        tBodyGyroJerkStdZ     66        fBodyGyroMagStd
+33        tBodyAccMagMean       67        fBodyGyroJerkMagMean
+34        tBodyAccMagStd        68        fBodyGyroJerkMagStd
 
