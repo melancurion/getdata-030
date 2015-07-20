@@ -37,7 +37,7 @@ The script was written and tested in R version 3.2.1 (2015-06-18), with dplyr ve
 
 1. The script "run_analysis.R" should be placed in a working directory (which should be assigned as such by means of setwd()). The command source("run_analysis.R") will execute the script.
 2. The script will download the zipped dataset from the target URL specified above to a directory "./data", which will be created if it does not already exist.
-3. The script will unzip the retrieved zip file into the working directory. This will have the effect of creating a new "raw data" directory "./UCI HAR Dataset", with nested subdirectories "./UCI HAR Dataset/test" and "./UCI HAR Dataset/train". These latter two directories will each contain an "/Inertial Signals" subdirectory and three files.
+3. The script will unzip the retrieved zip file into the working directory. This will have the effect of creating a new "raw data" directory "./UCI HAR Dataset", with nested subdirectories "./UCI HAR Dataset/test" and "./UCI HAR Dataset/train". These latter two directories will each contain an "/Inertial Signals" subdirectory and three files. *Note that the Inertial Signals files have not been directly used to generate the tidy dataset.*
    - "./UCI HAR Dataset" will contain the following files:
       * README.txt
       * activity_labels.txt
