@@ -1,6 +1,9 @@
 # getdata-030
 ## Coursera Getting and Cleaning Data Course
 
+### Background
+This project entails conversion of raw data produced in the "Human Activity Recognition Using Smartphones" study described in detail at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. The end product of this conversion is a tidy data set as specified hereunder.
+
 ### Conversion process from Raw to Tidy Data
 As required, the R script "run_analysis.R" does the following. 
 
@@ -13,6 +16,7 @@ As required, the R script "run_analysis.R" does the following.
 ### Raw Dataset
 The raw data files are available at this link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The files constituting the raw dataset are those listed in "Procedure for application of conversion script", step 3.
 
 ### Files
 This repo contains the following output products:
