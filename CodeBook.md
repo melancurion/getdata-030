@@ -38,7 +38,7 @@ where these substrings conform to the descriptions below.
 | Substring type     |Allowed values | Interpretation      |
 |:-------------------|:--------------| :-------------------|
 | domain-type        | 't' or 'f'    | Time domain metric or frequency domain metric derived from FFT analysis. |
-| measurement-type-1 | 'Body' or  'Gravity'  | Body or gravity metric |
+| measurement-type-1 | 'Body' or  'Gravity'  | Body-only or gravity-included metric |
 | instrument-type    | 'Acc' or 'Gyro'    | Acceleration or Angular Velocity    |
 | measurement-type-2 | 'Jerk', 'Mag', or '' (*empty*)     | Jerk. Mag, or not applicable |
 | summary-type       | 'Mean' or 'Std'     | Mean or Standard deviation |
@@ -86,9 +86,7 @@ of the "Parameter" field in 'HAR_tidy_tall.txt'.
 | 33      | tBodyAccMagMean     | 67      | fBodyGyroJerkMagMean
 | 34      | tBodyAccMagStd      | 68      | fBodyGyroJerkMagStd
 
-### Credits
-License:
-
-Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+### License
+Use of this dataset in publications must be acknowledged by referencing the following publication [1]. 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
