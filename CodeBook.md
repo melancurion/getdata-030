@@ -22,7 +22,7 @@ The same ID fields are applied in the "wide" and "tall" datasets.
 
 | Field Name    | Allowed Values                                                       | Interpretation        |
 | :-----------: | :------------------------------------------------------------------- | :-------------------- |
-| Subject       | Integer in range [1, 30]                                             |  Unique human subject identifier.              |
+| Subject       | Integer in range [1, 30]                                             |  Human subject unique identifier | 
 | Activity      | Character string in {"WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"} | Identifies the specific activity the test subject was engaged in during the observation. |
 
 ## Metric Fields
@@ -37,28 +37,11 @@ where these substrings conform to the descriptions below.
 ------------------------------------------------------------
 | Substring type     |Allowed values | Interpretation      |
 |:-------------------|:--------------| :-------------------|
-| domain-type        | 't' or 'f'    | - Time domain metric            |
+| domain-type        | 't' or 'f'    | Time domain metric or frequency domain metric derived from FFT analysis. |
+| measurement-type-1 | 'Body' or  'Gravity'  | Body or gravity metric |
+| instrument-type    | 'Acc' or 'Gyro'    | Acceleration or Angular Velocity    |
+| measurement-type-2 | 'Jerk', 'Mag', or '' (*empty*)     | Jerk. Mag, or not applicable |
+| summary-type       | 'Mean' or 'Std'     | Mean or Standard deviation |
+| axial coordinate   | 'X', 'Y','Z', or '' (*empty*)      | X, Y, or Z coordinate  |
 
-|                    |            | - Frequency domain  |
-|                    |               |   quantity          |
-|                    |               |   derived from FFT  |
-|                    |               |   analysis          |
 
-| measurement-type-1 | 'Body' or     | - Body metric       |
-|                    | 'Gravity'     | - Gravity metric    |
-+--------------------+---------------+---------------------+
-| instrument-type    | 'Acc' or      | - Acceleration      |
-|                    | 'Gyro'        | - Angular Velocity  |
-+--------------------+---------------+---------------------+
-| measurement-type-2 | 'Jerk',       | - Jerk              |
-|                    | 'Mag', or     | - Mag               |
-|                    | '' (*empty*)  | - Not applicable    |
-+--------------------+---------------+---------------------+
-| summary-type       | 'Mean' or     | - Mean              |
-|                    | 'Std'         | - Standard deviation|
-+--------------------+---------------+---------------------+
-| axial coordinate   | 'X',          | - X axis            |
-|                    | 'Y',          | - Y axis            |
-|                    | 'Z', or       | - Z axis            |
-|                    | '' (*empty*)  | - Not applicable    |
-+--------------------+---------------+---------------------+
