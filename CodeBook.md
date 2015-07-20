@@ -76,13 +76,13 @@ of the "Parameter" field in 'HAR_tidy_tall.txt'.
 | 23      | tBodyGyroMeanZ      | 57      | fBodyGyroMeanZ
 | 24      | tBodyGyroStdX       | 58      | fBodyGyroStdX
 | 25      | tBodyGyroStdY       | 59      | fBodyGyroStdY
-26        tBodyGyroStdZ         60        fBodyGyroStdZ
-27        tBodyGyroJerkMeanX    61        fBodyAccMagMean
-28        tBodyGyroJerkMeanY    62        fBodyAccMagStd
-29        tBodyGyroJerkMeanZ    63        fBodyAccJerkMagMean
-30        tBodyGyroJerkStdX     64        fBodyAccJerkMagStd
-31        tBodyGyroJerkStdY     65        fBodyGyroMagMean
-32        tBodyGyroJerkStdZ     66        fBodyGyroMagStd
-33        tBodyAccMagMean       67        fBodyGyroJerkMagMean
-34        tBodyAccMagStd        68        fBodyGyroJerkMagStd
+| 26      | tBodyGyroStdZ       | 60      | fBodyGyroStdZ
+| 27      | tBodyGyroJerkMeanX  | 61      | fBodyAccMagMean
+| 28      | tBodyGyroJerkMeanY  | 62      | fBodyAccMagStd
+| 29      | tBodyGyroJerkMeanZ  | 63      | fBodyAccJerkMagMean
+| 30      | tBodyGyroJerkStdX   | 64      | fBodyAccJerkMagStd
+| 31      | tBodyGyroJerkStdY   | 65      | fBodyGyroMagMean
+| 32      | tBodyGyroJerkStdZ   | 66      | fBodyGyroMagStd
+| 33      | tBodyAccMagMean     | 67      | fBodyGyroJerkMagMean
+| 34      | tBodyAccMagStd      | 68      | fBodyGyroJerkMagStd
 
