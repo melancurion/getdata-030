@@ -38,7 +38,7 @@ activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 ## Read features set
 features <- read.table("./UCI HAR Dataset/features.txt")
 
-## Combine the test and train data into a consolidated dataset
+## Combine the test and train data into a consolidated dataframe
 subject_df <- rbind(subject_train, subject_test)
 x_df <- rbind(x_train, x_test)
 y_df <- rbind(y_train, y_test)
