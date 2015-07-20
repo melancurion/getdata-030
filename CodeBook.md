@@ -6,7 +6,11 @@ date: "July 19, 2015"
 
 # Code Book for HAR Tidy Dataset
 ## Background
-The project purpose and a general description of the raw data are provided in the attached README file.
+The project purpose and a general description of the raw data and tghe underlying experimental approach are provided in the attached README file.
+
+## Raw Datasets
+The following files constitute the raw dataset from which the output dataset has been produced.
+
 
 ## Output Tidy Datasets
 Note that two versions of the tidy data set are provided:
